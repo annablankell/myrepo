@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+
+}
+
+ul{
+    padding: 5px;
+
+  
+   
+}
+
+li{
+    background-color: aquamarine;   
+
+    text-align: center;
+    border: 3px solid red;
+    margin: 5px;
+  
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 2em;
+    color: #666;
+}
+
+
+li a:hover{
+color: black;
+}
+
+
+/* Media Queries */
+
+@media all and (min-width: 600px){
+
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    li{
+
+        display: inline-block;
+    }
+}
